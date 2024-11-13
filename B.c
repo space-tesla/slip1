@@ -1,4 +1,6 @@
-Q.2) Write a C program to send SIGALRM signal by child process to parent process and parent process make a provision to catch the signal and display alarm is fired. (Use Kill, fork, signal and sleep system call)
+/*Q.2) Write a C program to send SIGALRM signal by child process to parent process 
+and parent process make a provision to catch the signal and display alarm is fired. 
+(Use Kill, fork, signal and sleep system call)*/
 
 #include <stdio.h>
 #include <unistd.h>
@@ -27,5 +29,5 @@ int main() {
     return 0;
 }
 
-Output:
-Alarm is fired!
+/*Output:
+Alarm is fired!*/
